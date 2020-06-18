@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Loging Suite]" parallel="methods">
+  <test thread-count="4" name="CorrectUserName(failed)" parallel="methods">
+    <parameter name="password" value="adm"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="loginTestCases.CorrectUserName">
+        <methods>
+          <include name="loginWithCorrectUserName"/>
+        </methods>
+      </class> <!-- loginTestCases.CorrectUserName -->
+    </classes>
+  </test> <!-- CorrectUserName(failed) -->
+</suite> <!-- Failed suite [Loging Suite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Loging Suite" parallel="methods" thread-count="4">
+
+	<test name="Login test">
+	<classes>
+		<class name="loginTestCases.Login_Using_Dataprovider"></class>
+	</classes>
+</test>
+</suite>
+
+
+
+<!-- <test name="Both_Incorrect">
+		<parameter name="username" value="Admin1"></parameter>
+		<parameter name="password" value="admin"></parameter>
+		<classes>
+			<class name="loginTestCases.Both_Incorrect"></class>
+		</classes>
+	</test>
+
+<test name="CorrectPassword">
+		<parameter name="username" value="Admin2"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="loginTestCases.CorrectPassword"></class>
+		</classes>
+	</test>
+
+	<test name="CorrectUserName">
+		<parameter name="username" value="Admin"></parameter>
+		<parameter name="password" value="adm"></parameter>
+		<classes>
+			<class name="loginTestCases.CorrectUserName"></class>
+		</classes>
+	</test> -->
+
+
+			
